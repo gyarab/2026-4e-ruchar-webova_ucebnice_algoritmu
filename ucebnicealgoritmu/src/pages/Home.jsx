@@ -1,10 +1,10 @@
 function Home() {
   return (
     <section className="page">
-      <h1>Algorithm Textbook</h1>
+      <h1>Učebnice Algoritmů</h1>
       <p>
-        Explore algorithms, understand how they work,
-        and experiment with interactive visualizations.
+        Objevuj algoritmy, zjisti jak fungují a 
+        vyzkoušej si je v praxi s interaktivními okénky
       </p>
     </section>
   );

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router"
-import { useState } from "react-router"
+import { useState } from "react"
 import logo from "../assets/gyarabLogo.png"
 
 function Navbar() {
@@ -14,7 +14,6 @@ function Navbar() {
       </NavLink>
 
       <nav className="nav-links">
-        <NavLink to="/">Home</NavLink>
         
         <div className="dropdown">
             <button className="dropdown-button" 
@@ -28,25 +27,27 @@ function Navbar() {
                 to="/searching"
                 onClick={() => setDropdownOpen(false)}
               >
-                Searching
+                Vyhledávací
               </NavLink>
 
               <NavLink
                 to="/sorting"
                 onClick={() => setDropdownOpen(false)}
               >
-                Sorting
+                Třídící
               </NavLink>
 
               <NavLink
                 to="/special-data-types"
                 onClick={() => setDropdownOpen(false)}
               >
-                Special Data Types
+                Speciální datové typy
               </NavLink>
             </div>
           )}
         </div>
+
+        <NavLink to="/">Home</NavLink>
       </nav>
     </header>
   );
