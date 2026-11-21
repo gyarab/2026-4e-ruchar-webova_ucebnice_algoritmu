@@ -1,1 +1,0 @@
-# 2026-4e-ruchar-webova_ucebnice_algoritmu
