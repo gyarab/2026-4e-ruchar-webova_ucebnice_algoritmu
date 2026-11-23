@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <section className="page">
+    <section className="homepage">
       <h1>Učebnice Algoritmů</h1>
       <p>
         Objevuj algoritmy, zjisti jak fungují a 
