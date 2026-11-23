@@ -65,11 +65,11 @@ function App() {
           element={<Stack />}
         />
         <Route
-          path="/special-data-types/linked-list"
+          path="/special-data-types/queue"
           element={<Queue />}
         />
         <Route
-          path="/special-data-types/binary-tree"
+          path="/special-data-types/heap"
           element={<Heap />}
         />
       </Route>

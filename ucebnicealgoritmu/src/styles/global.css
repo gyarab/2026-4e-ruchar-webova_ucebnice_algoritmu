@@ -6,13 +6,22 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f6fa;
+  background: #e6e6e6;
   color: #20212a;
+  border: 2px solid blueviolet;
 }
 
 a {
   color: inherit;
+  font-size: 18px;
   text-decoration: none;
+  border: 2px solid salmon
+}
+
+.page a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(72, 72, 253)
 }
 
 .navbar {
@@ -23,11 +32,16 @@ a {
   justify-content: space-between;
   background: white;
   border-bottom: 1px solid #e5e5e5;
+  border: 2px solid gray
 }
 
 .logo {
   font-size: 20px;
   font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #536dfe;
 }
 
 .nav-links {
@@ -36,7 +50,7 @@ a {
 }
 
 .nav-links a {
-  color: #666;
+  color: #20212a;
   transition: color 0.2s;
 }
 
@@ -49,17 +63,26 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 30px;
+  border: 2px solid gray;
+  border-top: none;
+  background: #f5f6fa;
 }
 
 .page h1 {
   font-size: 36px;
   margin-bottom: 16px;
+  border: 2px solid gray;
 }
 
 .page p {
   color: #666;
   line-height: 1.7;
-  font-size: 17px;
+  font-size: 18px;
+  border: 2px solid lightblue
+}
+
+.page h2 {
+  border: 2px solid orange
 }
 
 .logo {
@@ -68,6 +91,7 @@ a {
   gap: 10px;
   font-size: 20px;
   font-weight: bold;
+  
 }
 
 .logo img {
@@ -91,8 +115,8 @@ a {
   background: none;
   border: none;
   font: inherit;
-  font-size: 16px;
-  color: #666;
+  font-size: 18px;
+  color: #20212a;
   cursor: pointer;
   padding: 10px 0;
 }
@@ -103,7 +127,7 @@ a {
 
 .dropdown-arrow {
   font-size: 10px;
-  margin-left: 8px;
+  margin-left: 2px;
 }
 
 .dropdown-menu {
@@ -122,12 +146,17 @@ a {
 .dropdown-menu a {
   display: block;
   padding: 12px 16px;
-  color: #666;
+  color: #20212a;
   white-space: nowrap;
 }
 
-.dropdown-menu a:hover,
-.dropdown-menu a.active {
+.dropdown-menu a:hover, .dropdown-menu a.active {
   background: #f5f6fa;
   color: #536dfe;
+}
+
+pre {
+  font-size: 16px;
+  background: #e6e6e6;
+  padding-left: 50px;
 }

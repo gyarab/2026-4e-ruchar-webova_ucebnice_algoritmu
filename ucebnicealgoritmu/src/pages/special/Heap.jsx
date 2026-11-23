@@ -15,7 +15,7 @@ function Heap() {
       <h2>Java implementace</h2>
       <pre>
         <code>
-          
+          budliky budliky
         </code>
       </pre>
     </section>
