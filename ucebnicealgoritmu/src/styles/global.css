@@ -62,9 +62,10 @@ a {
 }
 
 .page h2 {
-  border: 2px solid red;
   text-align: center;
   width: fit-content;
+  margin-bottom: 5px;
+  text-decoration: underline;
 }
 
 .page h3 {
@@ -74,12 +75,16 @@ a {
 }
 
 .page p {
-  color: #666;
   line-height: 1.7;
   font-size: 18px;
   border: 2px solid gray;
   padding: 5px 5px;
   border-radius: 10px;
+  background: white;
+}
+
+.page ul {
+  margin-top: 5px;
 }
 
 .navbar {
@@ -210,7 +215,7 @@ pre {
 
     background-color: white;
     color: #20212a;
-    border: 3px solid #ccc;
+    border: 3px solid gray;
     border-radius: 6px;
 }
 
