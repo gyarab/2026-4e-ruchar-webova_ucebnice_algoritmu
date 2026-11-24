@@ -42,7 +42,7 @@ a {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 30px;
+  padding: 30px 30px;
   border: 2px solid gray;
   border-top: none;
   border-bottom: none;
@@ -197,4 +197,23 @@ pre {
   background: #e6e6e6;
   padding-left: 50px;
   border: 2px solid orange
+}
+
+.back-button {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    padding: 8px 16px;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    background-color: white;
+    color: #20212a;
+    border: 3px solid #ccc;
+    border-radius: 6px;
+}
+
+.back-button:hover {
+    background-color: #e6e6e6;
 }

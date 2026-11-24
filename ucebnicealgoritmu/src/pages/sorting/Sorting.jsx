@@ -5,6 +5,10 @@ function Sorting() {
     <section className="page">
       <h1>Třídící algoritmy</h1>
 
+      <p>Třídící (alternativně řadící) algoritmy slouží k uspořádání prvků v dané sadě prvků (např. pole, seznam, soubor, ...)
+        do požadovaného pořadí (např. od největšího po nejmenší)
+      </p>
+
       <div className="algorithm-list">
         <Link to="/sorting/bubble-sort">
           Bubble Sort
@@ -18,6 +22,7 @@ function Sorting() {
           Select Sort
         </Link>
         <br></br>
+
       </div>
     </section>
   );
