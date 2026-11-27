@@ -15,11 +15,14 @@ import Sorting from "./pages/sorting/Sorting";
 import BubbleSort from "./pages/sorting/BubbleSort";
 import InsertSort from "./pages/sorting/InsertSort";
 import SelectSort from "./pages/sorting/SelectSort";
+import QuickSort from "./pages/sorting/QuickSort";
+import MergeSort from "./pages/sorting/MergeSort";
 
 import SpecialDataTypes from "./pages/special/SpecialDataTypes";
 import Queue from "./pages/special/Queue";
 import Heap from "./pages/special/Heap";
 import Stack from "./pages/special/Stack";
+
 
 
 function App() {
@@ -54,6 +57,16 @@ function App() {
         <Route
           path="/sorting/select-sort"
           element={<SelectSort />}
+        />
+
+        <Route
+          path="/sorting/quick-sort"
+          element={<QuickSort />}
+        />
+
+        <Route
+          path="/sorting/merge-sort"
+          element={<MergeSort />}
         />
 
         <Route

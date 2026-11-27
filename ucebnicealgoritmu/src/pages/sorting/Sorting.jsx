@@ -19,7 +19,9 @@ function Sorting() {
         </Link>
         </li>
         <li>
+          <Link to="/sorting/quick-sort">
           Quick Sort
+        </Link>
         </li>
         <li>
           Heap Sort
@@ -47,7 +49,9 @@ function Sorting() {
       <h2>Třídění slučováním</h2>
       <ul>
         <li>
+        <Link to="/sorting/merge-sort">
           Merge Sort
+        </Link>
         </li>
       </ul>
 
